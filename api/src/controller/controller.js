@@ -127,7 +127,7 @@ module.exports.installDockerOrMySql = (req, res) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Basic " + btoa("louaykharouf:1176ee61d0ecdd02a6a70d57c1b0268177"),
+      Authorization: "Basic " + btoa("token"),
     },
   };
   request(clientServerOptions, function (error, response) {
